@@ -27,14 +27,10 @@ function m(arr1, arr2) {
             arr.push(arr2[right])
             right++;
         }
-
-        console.log(arr, left, right)
     }
 
     return arr
 }
-
-// console.log(m([1, 3, 5, 10], [2, 3, 4, 5]))
 
 function mergeSort(arr) {
 
@@ -46,5 +42,5 @@ function mergeSort(arr) {
 
     return m(left, right);
 }
-
-console.log(mergeSort([2, 1, 3, 5, 2]))
+// let arr = Array.from(Array(20)).map(x => Math.floor(Math.random() * 100))
+console.log(mergeSort([1, 4, 2, 5, 3, 6]))
