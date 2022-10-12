@@ -196,6 +196,7 @@ class DoubleLinkedList {
     }
 }
 
+
 let list = new DoubleLinkedList();
 
 // list.push(4);
